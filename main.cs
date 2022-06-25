@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("");
             Console.WriteLine("Do you want to quit the program?");
             Console.WriteLine("");
-            Console.WriteLine("Type 'yes' to end the program or type 'no' to add 1 to the counter. Your current amount of points is " + counter);
+            Console.WriteLine("Type 'yes' to end the program or type 'no' to add 1 to the counter. \nYour current amount of points is " + counter);
             repeatQuestion = Convert.ToString(Console.ReadLine());
             if (repeatQuestion == "yes")
             {
@@ -31,7 +31,7 @@ class Program
         }
         // end program
         Console.WriteLine("");
-        Console.WriteLine("The program has ended, your total points is " + counter);
+        Console.WriteLine("The program has ended, your total amount of points is " + counter);
         Console.WriteLine("\nDone.");
     }
 }
